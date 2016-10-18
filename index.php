@@ -17,9 +17,15 @@
             echo $key.':'.$value.'<hr>';
             }
             
-            if($aaa==0,$aaa<=10,$aaa++){
+            $array2=['su','thawat','tommy'];
+            print_r($array2);
+            echo '<hr>';
+            
+            echo $array2[2].'<hr>';
+            
+            for($aaa=0;$aaa<=10;$aaa++){
                 echo $aaa.'<br>';
-            }
+            } echo '<hr>';
             
         ?>
     </body>
